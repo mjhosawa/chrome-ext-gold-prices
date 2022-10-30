@@ -1,0 +1,20 @@
+{
+    "name": "Live Gold Prices",
+    "description": "Display real-time gold prices in any currency with your own premium and purchase rate.",
+    "version": "1.0.0",
+    "author": "Mohammed Jhosawa",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "/popup/popup.html"
+    },
+    "icons": {
+        "16": "/images/icon_16.png",
+        "32": "/images/icon_32.png",
+        "48": "/images/icon_48.png",
+        "64": "/images/icon_64.png",
+        "128": "/images/icon_128.png"
+    }
+}

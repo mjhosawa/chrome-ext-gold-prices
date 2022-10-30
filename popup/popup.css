@@ -1,0 +1,28 @@
+
+table {
+	overflow-x: hidden;
+	font-family: arial;
+	font-size: 14px;
+	border-width: 3px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: #efefef;
+	width: 250px;
+}
+
+thead, tr.head {
+    background-color: #484848;
+    color: white;
+}
+
+thead td, tbody td:nth-child(1) {
+    font-weight: bold;
+}
+
+a.reference {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	cursor:pointer;
+}
